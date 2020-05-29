@@ -1,8 +1,2 @@
-;;start use-package
-(add-to-list 'load-path "~/.emacs.d/site-lisp/use-package")
+;;from curl_me_to_dotemacs
 (require 'use-package)
-
-(with-eval-after-load 'info
-  (info-initialize)
-  (add-to-list 'Info-directory-list
-               "~/.emacs.d/site-lisp/use-package/"))
