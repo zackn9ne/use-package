@@ -1,3 +1,4 @@
+;;start use-package
 (add-to-list 'load-path "~/.emacs.d/site-lisp/use-package")
 (require 'use-package)
 
